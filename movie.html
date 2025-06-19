@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+  <meta charset="UTF-8" />
+  <title>Top 5 Ajith Kumar Movies</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 40px 20px;
+      background-color: #1b1b1b;
+      font-family: 'Segoe UI', sans-serif;
+      color: #f0f0f0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      box-sizing: border-box;
+    }
+
+    h1 {
+      font-size: 36px;
+      color: #ffbc00;
+      text-transform: uppercase;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .page-description {
+      max-width: 750px;
+      text-align: center;
+      font-size: 17px;
+      margin-bottom: 40px;
+      color: #ccc;
+      font-style: italic;
+    }
+
+    .movie-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      width: 100%;
+      max-width: 1200px;
+    }
+
+    .movie-card {
+      background-color: #292929;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .movie-card:hover {
+      transform: scale(1.05);
+    }
+
+    .movie-card img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    .movie-title {
+      font-size: 22px;
+      font-weight: bold;
+      color: #ffbc00;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    .release-genre, .movie-info-grid {
+      font-size: 14px;
+      color: #ddd;
+      margin-bottom: 10px;
+    }
+
+    .release-genre ul {
+      list-style: square inside;
+      padding: 0;
+    }
+
+    .movie-info-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .summary {
+      grid-column: span 2;
+      margin-top: 10px;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Top 5 Ajith Kumar Movies</h1>
+  <p class="page-description">Celebrating the charisma and screen presence of Thala Ajith through five of his most iconic Tamil films.</p>
+
+  <div class="movie-grid">
+
+    <div class="movie-card">
+      <img src="vaali.jpg" alt="Vaali" />
+      <div class="card-content">
+        <div class="movie-title">Vaali</div>
+        <div class="release-genre">
+          <div>Released: 1999</div>
+          <ul><li>Psychological Thriller</li><li>Ajith in dual roles</li></ul>
+        </div>
+        <div class="movie-info-grid">
+          <div><strong>Cast:</strong> Ajith, Simran</div>
+          <div><strong>Director:</strong> S. J. Surya</div>
+          <div><strong>Producer:</strong> S. S. Chakravarthy</div>
+          <div class="summary"><strong>Summary:</strong> A suspenseful tale of twin brothers and obsession, marking Ajith's breakout performance in a complex dual role.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="movie-card">
+      <img src="dheena.jpg" alt="Dheena" />
+      <div class="card-content">
+        <div class="movie-title">Dheena</div>
+        <div class="release-genre">
+          <div>Released: 2001</div>
+          <ul><li>Action, Drama</li><li>Thala nickname origin</li></ul>
+        </div>
+        <div class="movie-info-grid">
+          <div><strong>Cast:</strong> Ajith, Laila</div>
+          <div><strong>Director:</strong> A. R. Murugadoss</div>
+          <div><strong>Producer:</strong> Venu Ravichandran</div>
+          <div class="summary"><strong>Summary:</strong> A loyal younger brother caught between family and gang rivalry, this film earned Ajith the title “Thala” among fans.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="movie-card">
+      <img src="billa.jpg" alt="Billa" />
+      <div class="card-content">
+        <div class="movie-title">Billa</div>
+        <div class="release-genre">
+          <div>Released: 2007</div>
+          <ul><li>Stylish Action</li><li>Remake of Rajinikanth’s classic</li></ul>
+        </div>
+        <div class="movie-info-grid">
+          <div><strong>Cast:</strong> Ajith, Nayanthara</div>
+          <div><strong>Director:</strong> Vishnuvardhan</div>
+          <div><strong>Producer:</strong> L. Suresh</div>
+          <div class="summary"><strong>Summary:</strong> A stylish gangster thriller where Ajith’s screen presence and sleek action sequences elevated him to superstar status.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="movie-card">
+      <img src="vedalam.jpg" alt="Vedalam" />
+      <div class="card-content">
+        <div class="movie-title">Vedalam</div>
+        <div class="release-genre">
+          <div>Released: 2015</div>
+          <ul><li>Action, Sentiment</li><li>Brother-sister bond</li></ul>
+        </div>
+        <div class="movie-info-grid">
+          <div><strong>Cast:</strong> Ajith, Shruti Haasan</div>
+          <div><strong>Director:</strong> Siva</div>
+          <div><strong>Producer:</strong> A. M. Rathnam</div>
+          <div class="summary"><strong>Summary:</strong> A loving brother with a violent past turns avenger, blending emotional depth and mass action in true Thala style.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="movie-card">
+      <img src="viswasam.jpg" alt="Viswasam" />
+      <div class="card-content">
+        <div class="movie-title">Viswasam</div>
+        <div class="release-genre">
+          <div>Released: 2019</div>
+          <ul><li>Family Drama, Action</li><li>Rural mass entertainer</li></ul>
+        </div>
+        <div class="movie-info-grid">
+          <div><strong>Cast:</strong> Ajith, Nayanthara</div>
+          <div><strong>Director:</strong> Siva</div>
+          <div><strong>Producer:</strong> Sathya Jyothi Films</div>
+          <div class="summary"><strong>Summary:</strong> A father returns to protect his daughter, with colorful rural vibes and emotional storytelling that resonated with fans.</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
